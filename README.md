@@ -1,4 +1,15 @@
-# React + TypeScript + Vite
+# Custom Hooks Project
+
+A React project that uses two reusable custom hooks.
+
+**How it works**
+
+1. useState stores the debounced value.
+2. useEffect starts a setTimeout whenever value or delay changes.
+3. The effect's cleanup function calls clearTimeout, so a new change cancels the previous timer.
+4. When the timer finally fires, the debounced value is updated.
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
