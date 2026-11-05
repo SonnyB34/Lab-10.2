@@ -1,4 +1,4 @@
-import { usePagination } from "../hooks/usePagination";
+import { usePagination } from '../hooks/usePagination';
 
 // Pretend list of 123 items: ["Item 1", "Item 2", ...]
 const ALL_ITEMS = Array.from({ length: 123 }, (_, i) => `Item ${i + 1}`);
